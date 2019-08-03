@@ -414,4 +414,14 @@ git add -A # this adds all changed files locally
 git commit -m "Implement feedback"
 git push origin feature/feedback
 ```
-Look in GitHub, and you should see a yellow banner near the top that shows your new branch. It will go ahead and click "Compare & Pull Request".
+Look in GitHub, and you should see a yellow banner near the top that shows your new branch. Go ahead and click "Compare & Pull Request" and the right of the banner. Name your pull request (PR from here on) something meaningful, and add in the description the changes you made. Be descriptive, but concise. In the top right, you'll see "Reviewers", click the dropdown and add your instructor. Next, scroll down and double check that your code changes are as you expect them to be (green means code that is added, red is code that is removed). Then when you are ready, click "Create Pull Request". 
+
+At this point, your instructor can review your code and make comments on it. He may ask you to make some changes, and if so, you can make changes using the exact same commands as above, with the only difference being the commit message. Once your code is ready, you instructor will merge it, which will put your changes from your branch back into the `master` branch. 
+
+From here on out, this is how we will be submitting code throughout this course. It's also extremely common practice in GitHub, so these skills will carry over into pretty much any software job.
+
+## Tips and tricks
+1) Never merge directly into `master`. In the real world, sometimes people do this by mistake and wreak havoc on their systems. It is always best practice to create a branch for your work, and submit a PR (and have it reviewed by other team members) for it to be merged.
+2) Use good Git commit message hygiene, see [here](https://chris.beams.io/posts/git-commit/)
+3) Download a GUI tool once you get the hang of the commands and what the do. I recommend [Source Tree](https://www.sourcetreeapp.com/)
+
