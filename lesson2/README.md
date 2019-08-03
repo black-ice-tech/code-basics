@@ -48,10 +48,10 @@ git push origin master
 At this point, you should now be able to see your code in your GitHub repository. If you still see the page with the options for commands, something went wrong, feel free to reach out for help. It may ask you to set your username and email. Go ahead and follow the instructions to do so (you can always change these).
 
 ## Pulling code
-If you are using Git Bash, you will have, parentheses around your branch name, to the right of your current directory. In this case, since we haven't created any new branches yet, it will say `(master)`. Now let's go into GitHub and add a new file. 
-```
-It is almost always a bad idea to create files directly in GitHub. However, this is an exception so that we can demonstrate how a "pull" command works.
-```
+If you are using Git Bash, you will have, parentheses around your branch name, to the right of your current directory. In this case, since we haven't created any new branches yet, it will say `(master)`. Now let's go into GitHub and add a new file.  
+
+> **Important!** It is almost always a bad idea to create files directly in GitHub. However, this is an exception so that we can demonstrate how a "pull" command works.
+
 In your repository main page, there should be a button "Create new file". Click that, and name the file `.gitignore`. Copy and paste the following contents into it:
 ```
 ## Ignore Visual Studio temporary files, build results, and
