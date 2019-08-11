@@ -88,7 +88,7 @@ public void MyMethod() // More on methods later
 {
     int myNum = 5;
 
-    if (myNum < 5)
+    if (myNum < 5) // More on if statements later
     {
         string myString = "abc";
 
