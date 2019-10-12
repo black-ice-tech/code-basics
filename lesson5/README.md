@@ -154,7 +154,7 @@ namespace Lesson5
 
             bool isFreezing = forecaster.IsFreezing(degreesF);
 
-            Console.WriteLine($"Below freezing: {isFreezing}");
+            Console.WriteLine($"Freezing: {isFreezing}");
         }
     }
 
@@ -172,17 +172,17 @@ namespace Lesson5
 
 ```
 
-By ONLY adding 2 methods `ConvertToCelsius` and `IsBelowFreezing` to the `WeatherForecaster` class, make your program print the following:
+By ONLY adding 2 methods `ConvertToCelsius` and `IsFreezing` to the `WeatherForecaster` class, make your program print the following:
 ```bash
 dotnet run
 Calculating celsius...
 The temperature today is 9.13328563521303 degrees Fahrenheit and -12.7037302026594 degrees Celsius
-Below freezing: True
+Freezing: True
 ```
 ```bash
 Calculating celsius...
 The temperature today is 86.9745435784452 degrees Fahrenheit and 30.5414130991362 degrees Celsius
-Below freezing: False
+Freezing: False
 ```
 Note there are 3 lines being printed to the console.
 
